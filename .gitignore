@@ -1,0 +1,51 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+release.properties
+dependency-reduced-pom.xml
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# IDE - Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# IDE - VS Code
+.vscode/
+.classpath
+.factorypath
+
+# IDE - NetBeans
+nbproject/
+.nb-gradle/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Compiled files
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+
+# Build
+build/
+dist/
+
+# Local environment
+*.local
+*.local.xml
+
+# Logs
+logs/
+*.log
