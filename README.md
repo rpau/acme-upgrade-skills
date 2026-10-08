@@ -22,7 +22,7 @@ A repository example for custom Claude Code skills to automate code upgrades and
 
 2. **Build and install to local .m2 repository:**
    ```bash
-   mvn clean install
+   ./mvnw clean install
    ```
 
    This will:
