@@ -46,7 +46,7 @@ The skill will:
 
 - `catch (IOException e)` → `catch (AcmeNotificationException e)` in methods calling `Notification#sendNotification`
 - Removes `IOException` from throws clauses where it's only needed for this method
-- Adds import for `com.acme.AcmeNotificationException` where needed
+- Adds import for `com.acme.boot.notification.AcmeNotificationException` where needed
 - Updates JavaDoc `@throws` tags accordingly
 
 ## Important notes
